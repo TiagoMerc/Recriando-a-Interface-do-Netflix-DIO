@@ -1,3 +1,39 @@
+:root { /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root */
+  --vermelho: #E50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: blue;
+  background-color: var(--preta); /*Pega a variável na :root*/
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;/*Cria um espaço entre h2 e o nav*/
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial', Times; /* A fonte Arial Black não funcionou*/
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none; /*Tirar os sublinhado*/
+    color: #AAAA;
+    margin-right: 16px;
+}
+
+header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
+    color: #fff;
 }
