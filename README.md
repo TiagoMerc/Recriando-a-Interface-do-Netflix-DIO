@@ -8,3 +8,6 @@ Variáveis dentro do CSS, seletores e flexbox
 
 #### Parte 4: 
 Como trabalhar com elementos em caixa, como uma caracterisitca pai são herdadas no CSS funciona e o uso do flexbox
+
+### Parte 5:
+Formatação da main e inserindo ícones pelo FontAwesome"

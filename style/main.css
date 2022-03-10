@@ -87,3 +87,11 @@ header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
 .botao i {
   margin-right: 8px;
 }
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
