@@ -11,3 +11,9 @@ Como trabalhar com elementos em caixa, como uma caracterisitca pai são herdadas
 
 ### Parte 5:
 Formatação da main e inserindo ícones pelo FontAwesome"
+
+### Parte 6:
+Wrappers ou Contêineress: Organizando e entendendo"
+
+### Parte 7:
+Construção do carrosel de catálogo de filmes usando o owl.carousel.js
