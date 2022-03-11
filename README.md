@@ -6,6 +6,10 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 
 HTMLCSSJavaScript
 
+##### Especialista:
+Felipe Aguiar
+Coordenador de Education & Talent Success, Digital Innovation One
+
 #### Parte 2: 
 Configuração do VsCode, criação dos arquivos e nav no index
 #### Parte 3: 
