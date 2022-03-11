@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--preta); /*Pega a variável na :root*/
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -100,4 +100,8 @@ header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
 }

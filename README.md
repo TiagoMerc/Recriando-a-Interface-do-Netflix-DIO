@@ -16,4 +16,7 @@ Formatação da main e inserindo ícones pelo FontAwesome"
 Wrappers ou Contêineress: Organizando e entendendo"
 
 ### Parte 7:
-Construção do carrosel de catálogo de filmes usando o owl.carousel.js
+Construção do carrossel de catálogo de filmes usando o owl.carousel.js
+
+### Parte 8:
+Media Queries e responsividade
