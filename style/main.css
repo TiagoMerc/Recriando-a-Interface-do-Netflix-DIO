@@ -1,5 +1,6 @@
-:root { /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root */
-  --vermelho: #E50914;
+:root {
+  /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root */
+  --vermelho: #e50914;
   --preta: #141414;
 }
 
@@ -12,7 +13,7 @@
 /*Elemento base*/
 
 body {
-  background-color: var(--preta); /*Pega a variável na :root*/
+  background: var(--preta); /*Pega a variável na :root*/
   font-family: 'Arial', Times, serif;
   color: white;
 }
@@ -21,33 +22,35 @@ header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;/*Cria um espaço entre h2 e o nav*/
+  justify-content: space-between; /*Cria um espaço entre h2 e o nav*/
 }
 
 header .logo {
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial', Times; /* A fonte Arial Black não funcionou*/
-    font-size: 40px;
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial', Times; /* A fonte Arial Black não funcionou*/
+  font-size: 40px;
 }
 
 header nav a {
-    text-decoration: none; /*Tirar os sublinhado*/
-    color: #AAAA;
-    margin-right: 16px;
+  text-decoration: none; /*Tirar os sublinhado*/
+  color: #aaa;
+  margin-right: 10px;
 }
 
-header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
-    color: #fff;
+header nav a:hover {
+  /*Quando o mouse estiver em cima, mudar a cor*/
+  color: #fff;
 }
 
 /* Filme principal */
 .filme-principal {
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-house.jpg'); /* Referenciar a imagem com url*/
-                       
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url('/img/capa-house.jpg'); /* Referenciar a imagem com url*/
+
   height: 400px; /*Tamanho pra caixa*/
-  background-size: cover;/*Cobrir área da caixa*/
+  background-size: cover; /*Cobrir área da caixa*/
 
   display: flex;
   flex-direction: column;
@@ -63,11 +66,11 @@ header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
 .filme-principal .titulo {
   margin-top: 15%;
   font-size: 40px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao {
-  background-color: rgba(0,0,0,.50);
+  background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
 
@@ -75,8 +78,8 @@ header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
   margin-right: 15px;
   font-size: 12px;
 
-  cursor:  pointer;
-  transition: .3s ease all;
+  cursor: pointer;
+  transition: 0.3s ease all;
 }
 
 .botao:hover {
@@ -100,6 +103,7 @@ header nav a:hover { /*Quando o mouse estiver em cima, mudar a cor*/
   height: 100%;
   width: 100%;
   display: block;
+  cursor: pointer;
 }
 
 .carrosel-filmes {
